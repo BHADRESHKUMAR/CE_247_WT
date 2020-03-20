@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+  background-image: url("bluewash.jpg");
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-image: url("multicol_heading.jpg");
+  position :fixed;
+  top: 0;
+  z-index: 1
+}
+
+.head1 {
+  text-align: center;
+  color: darkblue;
+}
+
+.img1{
+  padding: 50px 0px 0px 0px;
+}
+
+.main {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.main p {
+  margin: 10px 0;
+}
+
+.btn1 {
+  background-color: #239b76;
+}
+
+.btn2 {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.btn3 {
+  background-color: #6b3456;
+}
+
+.btn4 {
+  background-color: #8b3456;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+footer img {
+  width: 200px;
+}
+
+footer p {
+  color: red;
+  font-size: 20px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
